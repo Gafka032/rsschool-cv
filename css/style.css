@@ -1,0 +1,29 @@
+/* Global */
+
+/* Header */
+.nav-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Left-side */
+.left-side{
+    width: 100%;
+    color: white;
+    background-color: #808cad;
+}
+.figure-ph{
+margin: 0;
+padding: 0;
+width: 100%;
+height: min-content;
+background-color: #a0a7be;
+}
+.photo{
+    width: 100%;
+    object-fit: cover;
+}
