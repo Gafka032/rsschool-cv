@@ -67,7 +67,65 @@
             </ul> 
             </section>
             <section class="code-example" id="code-example">
-
+            <h2 class="right-section-title">Code Examples</h2>
+                <p class="name-example">An example of a script looking for the area of a rectangle:</p>
+                <pre>
+                <code data-language="javascript" class="code-example">
+                    const height = 40; <br>
+                    const width = 70; <br>
+                    let square = height * width; <br>
+                    console.log(square);
+                </code>
+                </pre>
+                <p class="name-example">An example of a code with IF:</p>
+                <pre>
+                <code data-language="javascript" class="code-example">
+                    const randomNumber = Math.floor(Math.random() * 100); <br>
+                    if (randomNumber &lt; 20){  <br>          
+                        console.log('randomNumber less 20'); <br>
+                    } else if (randomNumber > 50) { <br>
+                        console.log('randomNumber more 50'); <br>
+                    } else{ <br>
+                        console.log('randomNumber more 20, and less 50'); <br>
+                    }
+                </code>
+                </pre>
+                <p class="name-example">The same example with using the Switch Case:</p>
+                <pre>
+                <code data-language="javascript" class="code-example">
+                    const randomNumber1 = Math.floor(Math.random() * 100); <br>
+                    switch(true){ <br>
+                        case (randomNumber1 &lt; 20) : <br>
+                            console.log('randomNumber1 less 20'); <br>
+                            break; <br>
+                        case (randomNumber1 > 50) : <br>
+                            console.log('randomNumber more 50'); <br>
+                            break; <br>
+                        default : <br>
+                        console.log('randomNumber1 more 20, and less 50'); <br>
+                    } 
+                </code>
+                </pre>
+                <p class="name-example">The example of FOR cycle:</p>
+                <pre>
+                <code data-language="javascript" class="code-example">
+                    for(let i = 10; i &lt;p= 50; i++){ <br>
+                        if(i % 2 == 0){ <br>
+                            console.log(i); <br>
+                        } <br>
+                    }                    
+                </code>
+                </pre>
+                <p class="name-example">The example of While cycle:</p>
+                <pre>
+                <code data-language="javascript" class="code-example">
+                    let num = 21; <br>
+                    while(num &lt;= 67){ <br>
+                    num++; <br>
+                    if (num%2) console.log(num); <br>
+                    }
+                </code>
+                </pre>
             </section>
 
         </div>

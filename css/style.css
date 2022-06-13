@@ -83,3 +83,11 @@ header{
     line-height: 16px;
     color: #828282;
 }
+
+.name-example{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    color: #4F4F4F;
+}
