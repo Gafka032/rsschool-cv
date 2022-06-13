@@ -13,6 +13,13 @@
     padding: 0;
 }
 
+h1{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 27px;
+}
+
 /* Header */
 header{
     width: 100%;
@@ -48,6 +55,14 @@ header{
     width: 100%;
     object-fit: cover;
     border-radius: 180px;
+}
+
+.under-title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
 }
 
 /* Right-side */
