@@ -1,1 +1,1 @@
-# rsschool-cv
+https://Gafka032.github.io/rsschool-cv/
