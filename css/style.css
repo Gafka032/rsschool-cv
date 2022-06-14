@@ -1,0 +1,171 @@
+/* Global */
+.page{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background: #FFFFFF;
+
+}
+.page-body {
+    min-height: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+h1{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+/* Header */
+header{
+    width: 100%;
+    height: 40px;
+    background-color: #FFFFFF;
+}
+
+.nav-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Left-side */
+.left-side{
+    width: 100%;
+    color: #FFFFFF;
+    background-color: #174180;
+}
+.figure-ph{
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    height: 200px;
+    background-color: #C4C4C4;
+    border-radius: 180px;
+}
+.photo{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 180px;
+}
+
+.under-title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.contacts-list{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 14px;
+    color: #56CCF2;
+    list-style-type: none;
+}
+.contact-item1{
+    list-style-image: url(/img/icons8-discord-20.png);
+}
+.contact-item2{
+    list-style-image: url(/img/1mail.png);
+}
+.contact-item2 a{
+    color: #56CCF2;
+    text-decoration: none;
+}
+.contact-item2 a:hover{
+    text-decoration: underline;
+}
+.contact-item3{
+    list-style-image: url(/img/Geo.png);
+}
+.contact-logo{
+    width: 20px;
+    height: 20px;
+}
+.languages-list{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 11px;
+}
+.languages-item-span{
+    font-style: italic;
+    color:rgba(255, 255, 255, 0.5);
+}
+.refrences-list{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 11px;
+    list-style-type: none;
+}
+.refrences-list li a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.refrences-list li a:hover{
+    text-decoration: underline;
+}
+.refrences-item1{
+    list-style-image: url(/img/Vectorin.png);
+}
+.refrences-item2{
+    list-style-image: url(/img/icons8-facebook-21.png);
+}
+.refrences-item3{
+    list-style-image: url(/img/icons8-twitter-circled-21.png);
+}
+
+/* Right-side */
+
+.right-section-title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color:#174180;
+}
+
+.edu-item-1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    
+    color: #4F4F4F;
+}
+.edu-item-2{
+    font-style: italic;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: #828282;
+}
+
+.edu-item-3{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #828282;
+}
+
+.name-example{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    color: #4F4F4F;
+}
