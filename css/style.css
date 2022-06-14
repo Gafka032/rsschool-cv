@@ -12,19 +12,36 @@
     margin: 0 auto;
     padding: 0;
 }
-
+p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
 h1{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 27px;
+}
+
+h2{
     font-style: normal;
     font-weight: 800;
     font-size: 20px;
     line-height: 27px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 21em 30em;
+    margin: 0 10px;
 }
 
 /* Header */
 header{
     width: 100%;
     height: 40px;
-    background-color: #FFFFFF;
+    background-color: #dfe1e4;
 }
 
 .nav-list{
@@ -35,16 +52,28 @@ header{
     padding: 0;
     list-style: none;
 }
-
+.nav a {
+    padding: 14px 10px;
+    line-height: 35px;
+    color: #174180;
+    text-decoration: none;
+}
+.nav a:hover {
+    background-color: #17418092;
+  }
 /* Left-side */
 .left-side{
-    width: 100%;
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: left;
+    height: 100%;
+    width: 100%; 
     color: #FFFFFF;
     background-color: #174180;
 }
 .figure-ph{
-    margin: 0;
-    padding: 0;
+    text-align: center;
     width: 200px;
     height: 200px;
     background-color: #C4C4C4;
@@ -68,7 +97,7 @@ header{
 .contacts-list{
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 14px;
     line-height: 14px;
     color: #56CCF2;
     list-style-type: none;
@@ -89,15 +118,17 @@ header{
 .contact-item3{
     list-style-image: url(/img/Geo.png);
 }
-.contact-logo{
-    width: 20px;
-    height: 20px;
+.skills-list{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
 }
 .languages-list{
     font-style: normal;
     font-weight: 400;
-    font-size: 8px;
-    line-height: 11px;
+    font-size: 14px;
+    line-height: 20px;
 }
 .languages-item-span{
     font-style: italic;
@@ -106,8 +137,8 @@ header{
 .refrences-list{
     font-style: normal;
     font-weight: 400;
-    font-size: 8px;
-    line-height: 11px;
+    font-size: 14px;
+    line-height: 20px;
     list-style-type: none;
 }
 .refrences-list li a{
@@ -129,12 +160,13 @@ header{
 }
 
 /* Right-side */
+.right-side{
+    width: 100%;
+    padding: 0 40px;
+}
 
 .right-section-title{
-    font-style: normal;
     font-weight: 700;
-    font-size: 16px;
-    line-height: 22px;
     color:#174180;
 }
 
@@ -169,3 +201,41 @@ header{
     line-height: 16px;
     color: #4F4F4F;
 }
+/* Footer */
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    padding: 20px 45px;
+    background-color: #0d2243;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.footer-github{
+position: relative;
+padding: 20px 40px;
+text-decoration: none;
+}
+.footer-github::before{
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 32px;
+    height: 32px;
+    background-image: url("/img/github-logo.svg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+.footer-year {
+    justify-self: center;
+  }
+.footer-rsschool {
+    justify-self: end;
+    height: 32px;
+  }
